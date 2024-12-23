@@ -1,5 +1,6 @@
 # eink-companion
 A browser extension for e-ink readers.
+Intended for use as an extension in Android [Kiwi browser](https://github.com/kiwibrowser).
 
 # Supported features:
 - floating up/down scroll buttons
