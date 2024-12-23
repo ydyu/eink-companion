@@ -1,0 +1,28 @@
+/* black text */
+* {
+    color: #000000 !important;
+}
+a, a * {
+    color: #000000 !important;
+}
+::selection {
+    background-color: #666666 !important;
+    color: #FFFFFF !important;
+}
+input,select,option,button,textarea {
+    color: #000000 !important;
+}
+input: focus,select: focus,option: focus,button: focus,textarea: focus,input: hover,select: hover,option: hover,button: hover,textarea: hover {
+    color: #000000 !important;
+}
+input[type=button],input[type=submit],input[type=reset],input[type=image] {
+    color: #000000 !important;
+}
+/* fix reddit.com */
+.text-primary,.text-secondary {
+    color: #000000 !important;
+}
+/* fix github.com */
+a.Link--primary,a.Link--secondary {
+    color: #000000 !important;
+}

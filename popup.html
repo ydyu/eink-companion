@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head><title>Eink Companion Settings</title></head>
+<body>
+    <script defer src="popup.js" type="module"></script>
+    <div style="display: flex; justify-content: space-between;">
+        <h3>Settings</h3>
+        <label for="toggleEnabled" style="margin-top: 12px;">
+            <input type="checkbox" name="toggleEnabled" id="toggleEnabled">
+            Enabled
+        </label>
+        <button id="resetSettings" style="height: 20px; margin-top: 12px;">
+        Reset</button>
+    </div>
+    <form id="optionsForm" style="border: 1px solid black; padding: 10px; width: 200px;">
+        <!-- floating buttons settings -->
+        <label for="floatingButtons">
+            <input type="checkbox" name="floatingButtons" id="floatingButtons">
+            Floating buttons
+        </label>
+        <div id="floatingButtonsSettings" style="display: none;">
+            <label for="bottomMargin">Bottom margin:</label>
+            <input type="text" name="bottomMargin" id="bottomMargin" value="">
+            <br/>
+            <label for="edgeMargin">Edge margin:</label>
+            <input type="text" name="edgeMargin" id="edgeMargin" value="">
+            <br/>
+            <label for="buttonSize">Button size:</label>
+            <input type="text" name="buttonSize" id="buttonSize" value="">
+            <br/>
+            <label for="scrollAmount">Scroll amount:</label>
+            <input type="text" name="scrollAmount" id="scrollAmount" value="">
+        </div>
+        <br/>
+        <!-- style settings -->
+        <label for="whiteBackground">
+            <input type="checkbox" name="whiteBackground" id="whiteBackground">
+            White background
+        </label>
+        <br/>
+        <label for="blackText">
+            <input type="checkbox" name="blackText" id="blackText">
+            Black text
+        </label>
+        <br/>
+        <label for="boldText">
+            <input type="checkbox" name="boldText" id="boldText">
+            Bold text
+        </label>
+    </form>
+</body>
+</html>
