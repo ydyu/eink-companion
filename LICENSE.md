@@ -12,5 +12,6 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 **Used open source code from the following projects:**
-"einkbro": CSS styles
+
+"einkbro": CSS styles.
 https://github.com/plateaukao/einkbro
